@@ -3,6 +3,7 @@ on:
   push:
     branches:
     - master
+    - 13-unity-package-manager-support-github-action-test
 jobs:
   split-upm:
     name: split upm branch (force)
